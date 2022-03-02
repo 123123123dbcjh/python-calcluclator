@@ -13,8 +13,8 @@ import os.path
 XO = "x"
 winner = None
 draw = False
-width = 400
-height = 400
+width = 500
+height = 500
 white = (255, 255, 255)
 line_color = (10, 10, 10)
 
@@ -24,7 +24,7 @@ board = [" " for x in range(10)]
 
 # initializing pygame window
 pg.init()
-fps = 30
+fps = 60
 CLOCK = pg.time.Clock()
 screen = pg.display.set_mode((width, height + 100), 0, 32)
 pg.display.set_caption("Tic Tac Toe")
